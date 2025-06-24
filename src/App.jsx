@@ -1,9 +1,14 @@
 import './index.css';
+
 export default function App() {
   return (
     <div className='bg-black text-white min-h-screen font-sans'>
       <header className='p-6 flex justify-between items-center border-b border-gray-800'>
-        <img src='/logo.png' alt='ShadowSpectra logo' className='h-12' />
+        <img
+          src="/logo.png"
+          alt="ShadowSpectra logo"
+          className="h-28 md:h-36 lg:h-44 animate-logoSpectra"
+        />
         <nav className='space-x-4'>
           <a href='#quem' className='hover:underline'>Quem Somos</a>
           <a href='#bast' className='hover:underline'>B.A.S.T</a>
